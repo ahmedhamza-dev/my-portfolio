@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import DotGroup from "./components/DotGroup";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
-import MySkills from "./components/MySkills";
+import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import GradiantLine from "./components/shared/GradiantLine";
@@ -42,7 +42,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
           <GradiantLine />
           <div className="w-5/6 mx-auto md:h-full">
-            <MySkills />
+            <Experience />
           </div>
           <div className="w-5/6 mx-auto">
             <Project />

@@ -7,7 +7,7 @@ import skills from "../assets/skills-image.png";
 const MySkills = () => {
   const isAboveMeduimScreen = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="experience" className="pt-10 pb-24">
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
           className="md:w-1/3"
@@ -138,7 +138,7 @@ const MySkills = () => {
             </div>
             <p className="mt-5 bg-red">Jul 2022 - Present · 7 mos</p>
             <p className="mt-1">
-              Building mobile apps with React native, UI Library components with
+              Building mobile apps with React native, Modern wep apps with
               React, Delivering Business around the corporate.
             </p>
           </div>

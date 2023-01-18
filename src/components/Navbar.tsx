@@ -30,7 +30,7 @@ const Navbar = ({isTop, selectedPage, setSelectedPage }: any) => {
         {isAboveSmallScreen ? (
           <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
             <Link page="Home" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
-            <Link page="Skills" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
+            <Link page="Experience" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
             <Link page="Projects" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
             <Link page="Contact" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/> 
           </div>
@@ -50,7 +50,7 @@ const Navbar = ({isTop, selectedPage, setSelectedPage }: any) => {
                 {/* Menu items */}
                 <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
                 <Link page="Home" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
-                <Link page="Skills" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
+                <Link page="Experience" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
                 <Link page="Projects" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/>
                 <Link page="Contact" selectedPage={selectedPage}  setSelectedPage={setSelectedPage}/> 
                 </div>
