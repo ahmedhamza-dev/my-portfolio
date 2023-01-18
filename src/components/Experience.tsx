@@ -138,7 +138,7 @@ const MySkills = () => {
             </div>
             <p className="mt-5 bg-red">Jul 2022 - Present · 7 mos</p>
             <p className="mt-1">
-              Building mobile apps with React native, Modern wep apps with
+              Building mobile apps with React native, Modern web apps with
               React, Delivering Business around the corporate.
             </p>
           </div>
